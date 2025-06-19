@@ -1,0 +1,9 @@
+/* For Webkit browsers (Chrome, Safari) */
+div::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+div {
+  scrollbar-width: none; /* Firefox */
+}

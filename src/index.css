@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/src/assets/fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NunitoBold";
+  src: url("/src/assets/fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+font-family: "Inter" ;
+src: url("/src/assets/fonts/Inter-VariableFont_opsz\,wght.ttf") format("woff2");
+font-weight: 400;
+font-style: normal;
+}
+
+
+
+.font-Nunito {
+  font-family: "Nunito", sans-serif;
+}
+.font-NunitoBold {
+  font-family: "NunitoBold", sans-serif;
+}
+
+.font-Inter {
+  font-family: "Inter", sans-serif;
+}
+
+.custom-swiper .swiper-pagination-bullet {
+  width: 21px;
+  height: 4px;
+  background-color: #ccc;
+  opacity: 1;
+  transition: all 0.3s ease;
+  margin: 0 5px;
+  border-radius: 0%;
+   cursor: pointer;
+
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #0E59F6; 
+  width: 21px;
+  height: 4px;
+  border-radius: 99px;
+   cursor: pointer;
+}
+.custom-swiper .swiper-pagination {
+  margin-top: 20px; 
+  position:relative!important;
+ 
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+    5% { opacity: 1; }
+
+  95% { opacity: 1; }
+
+  100% { opacity: 0; }
+}
+
+.blink-image {
+  position: absolute;
+  animation-name: blink;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
