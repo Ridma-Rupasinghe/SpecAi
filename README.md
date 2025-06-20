@@ -32,6 +32,6 @@ Run below two commands in a terminal
 
 ## Deploy link
 
- [Mchips](https://t00140-specai.onrender.com/)
+ [SpecAi](https://t00140-specai.onrender.com/)
 
 
